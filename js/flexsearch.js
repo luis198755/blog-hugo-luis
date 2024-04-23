@@ -991,22 +991,30 @@
     index.add(
       {
         id: 0,
-        href: "/blog/test/",
-        title: "Libro para colorear",
-        description: "Libro para colorear sobre reptiles",
-        content: "Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.\n# YouTube Privacy Enhanced Shortcode# Twitter Simple Shortcode# \u201CIn addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.\u201D\n\u2014 Jan Tschichold pic.twitter.com/gcv7SrhvJb\n&mdash; Design Reviewed | Graphic Design History (@DesignReviewed) January 17, 2019 Vimeo Simple Shortcode# "
+        href: "/blog/go-install/",
+        title: "Go Install",
+        description: "Prerequisites# To install Go (Golang) on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go from the official website.\nDownload the Go binary: Visit the official Go downloads page at https://golang.org/dl/ to find the binary distribution for Linux. You can download it using wget or curl. For example:",
+        content: "Prerequisites# To install Go (Golang) on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go from the official website.\nDownload the Go binary: Visit the official Go downloads page at https://golang.org/dl/ to find the binary distribution for Linux. You can download it using wget or curl. For example:\nwget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz Install# Remove any previous Go installation by deleting the /usr/local/go folder (if it exists), then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go:\nsudo rm -rf /usr/local/go sudo tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz Set up your environment variables: Add /usr/local/go/bin to the PATH environment variable. You can do this by adding the following lines to your $HOME/.profile, $HOME/.bashrc, or $HOME/.zshrc depending on the shell you use.\nexport PATH=$PATH:/usr/local/go/bin export GOPATH=$HOME/go export GOBIN=$GOPATH/bin After adding these lines, apply the changes by sourcing the profile file:\nsource $HOME/.profile Verify the installation: To check that Go is installed correctly and see the installed version, you can use:\ngo version Go installation web: https://go.dev/doc/install\n"
       }
     ).add(
       {
         id: 1,
+        href: "/blog/oh-my-zsh/",
+        title: "Oh my Zsh Install",
+        description: "Prerequisites# Installing Oh My Zsh on a Linux system is a straightforward process that enhances the default shell with additional features and themes. Here\u2019s a step-by-step guide to install Oh My Zsh:\nMake sure you have zsh installed on your system. You can install it using your package manager. For example, on Ubuntu, you can install it with:\nsudo apt update sudo apt install zsh Install# Install Oh My Zsh: You can install Oh My Zsh via the curl.",
+        content: 'Prerequisites# Installing Oh My Zsh on a Linux system is a straightforward process that enhances the default shell with additional features and themes. Here\u2019s a step-by-step guide to install Oh My Zsh:\nMake sure you have zsh installed on your system. You can install it using your package manager. For example, on Ubuntu, you can install it with:\nsudo apt update sudo apt install zsh Install# Install Oh My Zsh: You can install Oh My Zsh via the curl. Here are the commands:\nUsing curl:\nsh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" Change your default shell: After installing Oh My Zsh, you might want to change your default shell to zsh if it isn&rsquo;t already. You can do this by running:\nchsh -s $(which zsh) You will need to log out and log back in to see this change.\nCustomize your environment: Oh My Zsh comes with lots of themes and plugins. You can change themes by modifying the ZSH_THEME variable in the ~/.zshrc file. Plugins can be added by editing the plugins array in the same file.\nThis will set up a robust, feature-rich shell environment using Oh My Zsh, making your terminal more user-friendly and visually appealing.\nOh my Zsh web: https://ohmyz.sh/\n'
+      }
+    ).add(
+      {
+        id: 2,
         href: "/blog/embed-video-files/",
-        title: "Embed Video Files",
+        title: "Embed Video Files x",
         description: "Use the video shortcode to embed your video files from Hugo Page Resources.\n",
         content: "Use the video shortcode to embed your video files from Hugo Page Resources.\nWith a page bundle looking like the following:\nembed-videos/ |-- index.md |-- my-video.jpg |-- my-video.mp4 |-- my-video.webm You can embed my-video like this:\n{{&lt; video src=&#34;my-video&#34; autoplay=&#34;true&#34; controls=&#34;false&#34; loop=&#34;true&#34; &gt;}} The shortcode looks for media files matching the filename my-video*. For each video MIME type file, a &lt;source&gt; element is added. The first image MIME type file is used as poster (thumbnail). It will render the following HTML:\n&lt;video autoplay loop poster=&#34;/blog/embed-videos/my-video.jpg&#34; width=&#34;100%&#34; playsinline &gt; &lt;source src=&#34;/blog/embed-videos/my-video.mp4&#34; type=&#34;video/mp4&#34; /&gt; &lt;source src=&#34;/blog/embed-videos/my-video.webm&#34; type=&#34;video/webm&#34; /&gt; &lt;/video&gt; You can set a Markdown caption, wrapping the &lt;video&gt; inside a &lt;figure&gt;.\nAdditionally, the shortcode allows you to set the following attributes:\nAttribute Default autoplay false controls true height loop false muted true preload width 100% playsinline true Learn more about the &lt;video&gt; attributes here.\n"
       }
     ).add(
       {
-        id: 2,
+        id: 3,
         href: "/blog/image-optimization/",
         title: "Image Optimization",
         description: "The theme optimizes images by default with a custom Hugo&rsquo;s markdown render hook:\nThe theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn&rsquo;t WebP. The theme keeps the original file format as a fallback for browsers that don&rsquo;t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images# Use the front matter of your posts to add cover images:",
@@ -1014,7 +1022,7 @@
       }
     ).add(
       {
-        id: 3,
+        id: 4,
         href: "/blog/prism-code-highlighting-showcase/",
         title: "Prism Code Highlighting Showcase",
         description: "This theme uses Prism for code highlighting. Other Hugo themes usually include a pre-configured version of Prism, which complicates updates and clutters the source code base with third-party JavaScript.\nOnly the Prism features you select in the Hugo site configuration are bundled by the build process. This way, Prism can be easily updated with npm and the size of the JavaScript and CSS bundles are minimized by only including what you need.\n",
@@ -1022,7 +1030,7 @@
       }
     ).add(
       {
-        id: 4,
+        id: 5,
         href: "/blog/markdown-syntax/",
         title: "Markdown Syntax Guide",
         description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements.",
@@ -1030,7 +1038,7 @@
       }
     ).add(
       {
-        id: 5,
+        id: 6,
         href: "/blog/rich-content/",
         title: "Rich Content",
         description: "A brief description of Hugo Shortcodes",
@@ -1038,7 +1046,7 @@
       }
     ).add(
       {
-        id: 6,
+        id: 7,
         href: "/blog/placeholder-text/",
         title: "Placeholder Text",
         description: "Lorem Ipsum Dolor Si Amet",
@@ -1046,7 +1054,7 @@
       }
     ).add(
       {
-        id: 7,
+        id: 8,
         href: "/blog/math-typesetting/",
         title: "Math Typesetting",
         description: "A brief guide to setup KaTeX",
@@ -1054,7 +1062,7 @@
       }
     ).add(
       {
-        id: 8,
+        id: 9,
         href: "/blog/emoji-support/",
         title: "Emoji Support",
         description: "Guide to emoji usage in Hugo",
