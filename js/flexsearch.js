@@ -991,6 +991,22 @@
     index.add(
       {
         id: 0,
+        href: "/blog/nodejs-install/",
+        title: "Node.js Install",
+        description: "Node.js\xAE is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.\nNode.js is similar in design to, and influenced by, systems like Ruby&rsquo;s Event Machine and Python&rsquo;s Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop.",
+        content: "Node.js\xAE is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.\nNode.js is similar in design to, and influenced by, systems like Ruby&rsquo;s Event Machine and Python&rsquo;s Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop. Typically, behavior is defined through callbacks at the beginning of a script, and at the end a server is started through a blocking call like EventMachine::run(). In Node.js, there is no such start-the-event-loop call. Node.js simply enters the event loop after executing the input script. Node.js exits the event loop when there are no more callbacks to perform. This behavior is like browser JavaScript \u2014 the event loop is hidden from the user.\nInstall# Download Node.js as Package Manager\nInstalls NVM (Node Version Manager):\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash Download and install Node.js:\nnvm install 20 Verifies the right Node.js version is in the environment:\nnode -v # should print `v20.12.2` Verifies the right NPM version is in the environment:\nnpm -v # should print `10.5.0` Node.js installation web: https://nodejs.org/en/download/package-manager\n"
+      }
+    ).add(
+      {
+        id: 1,
+        href: "/blog/hugo-install/",
+        title: "Hugo Install",
+        description: "Prerequisites# To install HUGO on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go and Node.js.\nInstall Go Install Install Node.js Install# Option 1: Derivatives of the Debian distribution of Linux include elementary OS, KDE neon, Linux Lite, Linux Mint, MX Linux, Pop!_OS, Ubuntu, Zorin OS, and others.",
+        content: "Prerequisites# To install HUGO on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go and Node.js.\nInstall Go Install Install Node.js Install# Option 1: Derivatives of the Debian distribution of Linux include elementary OS, KDE neon, Linux Lite, Linux Mint, MX Linux, Pop!_OS, Ubuntu, Zorin OS, and others. To install the extended edition of Hugo:\nsudo apt install hugo OPtion 2: Prebuilt binaries are available for a variety of operating systems and architectures. Visit the latest release page, and scroll down to the Assets section.\nDownload the archive for the desired edition, operating system, and architecture Extract the archive Move the executable to the desired directory Add this directory to the PATH environment variable Verify that you have execute permission on the file Verify installation# Open a new terminal window or type source ~/.bashrc to update your shell configuration. To verify that HUGO is installed correctly, run:\nhugo version Hugo installation web: https://gohugo.io/installation/linux/\n"
+      }
+    ).add(
+      {
+        id: 2,
         href: "/blog/go-install/",
         title: "Go Install",
         description: "Prerequisites# To install Go (Golang) on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go from the official website.\nDownload the Go binary: Visit the official Go downloads page at https://golang.org/dl/ to find the binary distribution for Linux. You can download it using wget or curl. For example:",
@@ -998,7 +1014,7 @@
       }
     ).add(
       {
-        id: 1,
+        id: 3,
         href: "/blog/oh-my-zsh/",
         title: "Oh my Zsh Install",
         description: "Prerequisites# Installing Oh My Zsh on a Linux system is a straightforward process that enhances the default shell with additional features and themes. Here\u2019s a step-by-step guide to install Oh My Zsh:\nMake sure you have zsh installed on your system. You can install it using your package manager. For example, on Ubuntu, you can install it with:\nsudo apt update sudo apt install zsh Install# Install Oh My Zsh: You can install Oh My Zsh via the curl.",
@@ -1006,7 +1022,7 @@
       }
     ).add(
       {
-        id: 2,
+        id: 4,
         href: "/blog/embed-video-files/",
         title: "Embed Video Files x",
         description: "Use the video shortcode to embed your video files from Hugo Page Resources.\n",
@@ -1014,7 +1030,7 @@
       }
     ).add(
       {
-        id: 3,
+        id: 5,
         href: "/blog/image-optimization/",
         title: "Image Optimization",
         description: "The theme optimizes images by default with a custom Hugo&rsquo;s markdown render hook:\nThe theme creates resized versions for each image, ranging from 100 to 700 pixels wide. It generates WebP versions for each size if the original image format isn&rsquo;t WebP. The theme keeps the original file format as a fallback for browsers that don&rsquo;t support the WebP format. Images in SVG format are embedded as-is. Blog Post Cover Images# Use the front matter of your posts to add cover images:",
@@ -1022,7 +1038,7 @@
       }
     ).add(
       {
-        id: 4,
+        id: 6,
         href: "/blog/prism-code-highlighting-showcase/",
         title: "Prism Code Highlighting Showcase",
         description: "This theme uses Prism for code highlighting. Other Hugo themes usually include a pre-configured version of Prism, which complicates updates and clutters the source code base with third-party JavaScript.\nOnly the Prism features you select in the Hugo site configuration are bundled by the build process. This way, Prism can be easily updated with npm and the size of the JavaScript and CSS bundles are minimized by only including what you need.\n",
@@ -1030,7 +1046,7 @@
       }
     ).add(
       {
-        id: 5,
+        id: 7,
         href: "/blog/markdown-syntax/",
         title: "Markdown Syntax Guide",
         description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements.",
@@ -1038,7 +1054,7 @@
       }
     ).add(
       {
-        id: 6,
+        id: 8,
         href: "/blog/rich-content/",
         title: "Rich Content",
         description: "A brief description of Hugo Shortcodes",
@@ -1046,7 +1062,7 @@
       }
     ).add(
       {
-        id: 7,
+        id: 9,
         href: "/blog/placeholder-text/",
         title: "Placeholder Text",
         description: "Lorem Ipsum Dolor Si Amet",
@@ -1054,7 +1070,7 @@
       }
     ).add(
       {
-        id: 8,
+        id: 10,
         href: "/blog/math-typesetting/",
         title: "Math Typesetting",
         description: "A brief guide to setup KaTeX",
@@ -1062,7 +1078,7 @@
       }
     ).add(
       {
-        id: 9,
+        id: 11,
         href: "/blog/emoji-support/",
         title: "Emoji Support",
         description: "Guide to emoji usage in Hugo",

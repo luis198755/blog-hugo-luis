@@ -4,11 +4,25 @@
     <title>Blog</title>
     <link>https://hugo-theme-gruvbox.schnerring.net/</link>
     <description>Recent content on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2021</copyright>
-    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hugo-theme-gruvbox.schnerring.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Node.js Install</title>
+      <link>https://hugo-theme-gruvbox.schnerring.net/blog/nodejs-install/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-theme-gruvbox.schnerring.net/blog/nodejs-install/</guid>
+      <description>Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.&#xA;Node.js is similar in design to, and influenced by, systems like Ruby&amp;rsquo;s Event Machine and Python&amp;rsquo;s Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop.</description>
+    </item>
+    <item>
+      <title>Hugo Install</title>
+      <link>https://hugo-theme-gruvbox.schnerring.net/blog/hugo-install/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-theme-gruvbox.schnerring.net/blog/hugo-install/</guid>
+      <description>Prerequisites# To install HUGO on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go and Node.js.&#xA;Install Go Install Install Node.js Install# Option 1: Derivatives of the Debian distribution of Linux include elementary OS, KDE neon, Linux Lite, Linux Mint, MX Linux, Pop!_OS, Ubuntu, Zorin OS, and others.</description>
+    </item>
     <item>
       <title>Go Install</title>
       <link>https://hugo-theme-gruvbox.schnerring.net/blog/go-install/</link>
@@ -91,7 +105,7 @@
       <link>https://hugo-theme-gruvbox.schnerring.net/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hugo-theme-gruvbox.schnerring.net/cv/</guid>
-      <description>Experience# CEO/President 2013-12-01 - 2014-12-01 Pied Piper — Awesome compression company Palo Alto, CA Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.&#xA;Build an algorithm for artist to detect if their music was violating copy right infringement laws Successfully won Techcrunch Disrupt Optimized an algorithm that holds the current world record for Weisman Scores Education# Information Technology (Bachelor) 2011-06-01 - 2014-01-01 University of Oklahoma 4.</description>
+      <description>Experience# Technical Leader of Research and Technological Development 2022-10-01 - present TrafficLight de México — TrafficLight de México is a Mexican company specializing in innovative engineering solutions primarily focused on public space functionality, energy, and mobility. They aim to transform public spaces to make them more efficient and user-friendly by utilizing creative engineering and data management. Their projects often integrate artistic and technical elements to enhance both the aesthetics and sustainability of urban environments Puebla, México Management of projects and technological tasks in the field of smart cities.</description>
     </item>
   </channel>
 </rss>

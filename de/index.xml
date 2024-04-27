@@ -4,7 +4,7 @@
     <title>Blog</title>
     <link>https://hugo-theme-gruvbox.schnerring.net/de/</link>
     <description>Recent content on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de</language>
     <copyright>Copyright © 2021</copyright>
     <atom:link href="https://hugo-theme-gruvbox.schnerring.net/de/index.xml" rel="self" type="application/rss+xml" />

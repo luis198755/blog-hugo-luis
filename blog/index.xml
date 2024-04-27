@@ -4,11 +4,25 @@
     <title>Blogs on Blog</title>
     <link>https://hugo-theme-gruvbox.schnerring.net/blog/</link>
     <description>Recent content in Blogs on Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2021</copyright>
-    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hugo-theme-gruvbox.schnerring.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Node.js Install</title>
+      <link>https://hugo-theme-gruvbox.schnerring.net/blog/nodejs-install/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-theme-gruvbox.schnerring.net/blog/nodejs-install/</guid>
+      <description>Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.&#xA;Node.js is similar in design to, and influenced by, systems like Ruby&amp;rsquo;s Event Machine and Python&amp;rsquo;s Twisted. Node.js takes the event model a bit further. It presents an event loop as a runtime construct instead of as a library. In other systems, there is always a blocking call to start the event-loop.</description>
+    </item>
+    <item>
+      <title>Hugo Install</title>
+      <link>https://hugo-theme-gruvbox.schnerring.net/blog/hugo-install/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hugo-theme-gruvbox.schnerring.net/blog/hugo-install/</guid>
+      <description>Prerequisites# To install HUGO on a Linux system, you can follow these steps. These steps are generally applicable to most Linux distributions, such as Ubuntu, Fedora, and CentOS. Make sure to download the latest version of Go and Node.js.&#xA;Install Go Install Install Node.js Install# Option 1: Derivatives of the Debian distribution of Linux include elementary OS, KDE neon, Linux Lite, Linux Mint, MX Linux, Pop!_OS, Ubuntu, Zorin OS, and others.</description>
+    </item>
     <item>
       <title>Go Install</title>
       <link>https://hugo-theme-gruvbox.schnerring.net/blog/go-install/</link>
